@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2SK932
+D JFET N-Channel 15V 50mA 200mW Surface Mount SMCP
+K
+F https://www.onsemi.com/download/data-sheet/pdf/2sk932-d.pdf
+$ENDCMP
+#
+#End Doc Library
