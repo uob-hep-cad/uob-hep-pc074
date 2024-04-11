@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "UoB Cremat Library")(type "KiCad")(uri "${KIPRJMOD}/UoB Cremat Library.pretty")(options "")(descr ""))
   (lib (name "2SK932")(type "KiCad")(uri "${KIPRJMOD}/2SK932.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/AD8099/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "AD8099")(type "KiCad")(uri "${KIPRJMOD}/AD8099/KiCADv6/AD8099.pretty")(options "")(descr ""))
 )
