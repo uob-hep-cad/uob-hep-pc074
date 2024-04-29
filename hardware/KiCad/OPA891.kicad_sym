@@ -123,6 +123,24 @@
 			)
 		)
 		(symbol "OPA891_1_0"
+			(pin no_connect non_logic
+				(at 0 7.62 270)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 3.81)
