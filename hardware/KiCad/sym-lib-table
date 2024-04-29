@@ -3,4 +3,5 @@
   (lib (name "UoB Diamond Sensor Library")(type "KiCad")(uri "${KIPRJMOD}/UoB Diamond Sensor Library.kicad_sym")(options "")(descr ""))
   (lib (name "AD8099")(type "KiCad")(uri "${KIPRJMOD}/AD8099/KiCADv6/2024-03-27_16-06-40.kicad_sym")(options "")(descr ""))
   (lib (name "2SK932")(type "KiCad")(uri "${KIPRJMOD}/2SK932/2SK932.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA891")(type "KiCad")(uri "${KIPRJMOD}/OPA891.kicad_sym")(options "")(descr ""))
 )

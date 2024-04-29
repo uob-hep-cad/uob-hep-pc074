@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "csa_core_simulation.kicad_pro",
+    "filename": "csa_core_simulation_sim-opamp.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -376,7 +376,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "csa_core_simulation.wbk"
+      "workbook_filename": "csa_core_simulation_sim-opamp.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -391,12 +391,12 @@
   },
   "sheets": [
     [
-      "cf15a27c-7909-4ca0-90a9-15c3f1f6476e",
+      "2aaf14b7-a1ca-42e6-b2fb-57bce6369993",
       "Root"
     ],
     [
-      "36ded35a-6afb-45c1-874f-baddc83e44e6",
-      "csa_core"
+      "5b02fe30-9398-4d72-ab19-0fa3674daed6",
+      "csa_core_sim-opamp"
     ]
   ],
   "text_variables": {}

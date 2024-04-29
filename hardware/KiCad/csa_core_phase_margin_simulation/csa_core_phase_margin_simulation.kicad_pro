@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "csa_core_simulation.kicad_pro",
+    "filename": "csa_core_phase_margin_simulation.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -376,7 +376,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "csa_core_simulation.wbk"
+      "workbook_filename": "csa_core_phase_margin_simulation.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -391,12 +391,8 @@
   },
   "sheets": [
     [
-      "cf15a27c-7909-4ca0-90a9-15c3f1f6476e",
+      "36044782-12cf-459c-9c77-2cfbb33ce62d",
       "Root"
-    ],
-    [
-      "36ded35a-6afb-45c1-874f-baddc83e44e6",
-      "csa_core"
     ]
   ],
   "text_variables": {}
