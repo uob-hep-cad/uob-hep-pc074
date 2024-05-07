@@ -31,12 +31,40 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/vbase)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/ve)",
+          "trace_type": 521
+        },
+        {
           "color": "rgb(228, 26, 28)",
+          "cursor2": {
+            "position": 66718585.76134581,
+            "x_format": "3~Hz",
+            "y_format": "3~°"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
+          },
           "signal": "V(/vfb)",
           "trace_type": 517
         },
         {
           "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 70525114.78135292,
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
+          },
           "signal": "V(/vfb)",
           "trace_type": 521
         },
