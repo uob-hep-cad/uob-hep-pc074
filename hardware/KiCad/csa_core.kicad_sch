@@ -3921,7 +3921,7 @@
 				)
 			)
 		)
-		(property "Value" "50p"
+		(property "Value" "47p"
 			(at 237.49 93.98 90)
 			(effects
 				(font
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Value" "50p"
+		(property "Value" "47p"
 			(at 176.53 96.52 90)
 			(effects
 				(font
