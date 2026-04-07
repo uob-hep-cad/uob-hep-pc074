@@ -1,0 +1,60 @@
+(footprint "IAC Logo" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Potentiometer, horizontal, ACP CA6-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf")
+  (tags "Potentiometer horizontal ACP CA6-H2,5")
+  (attr through_hole)
+  (fp_text reference "IAC" (at -0.762 -0.254) (layer "F.Cu")
+      (effects (font (size 4 4) (thickness 0.6)))
+    (tstamp c4ef9c27-a5c0-439d-a81e-2bfc5948014a)
+  )
+  (fp_text value "IAC Logo" (at 3.556 -7.112) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6b7b9d06-d735-4c9b-86ce-e70986ab7ca3)
+  )
+  (fp_text user "${REFERENCE}" (at -4.826 -7.112) (layer "F.Fab")
+      (effects (font (size 0.78 0.78) (thickness 0.15)))
+    (tstamp e986f4ab-6d11-44c0-b881-1fee225757f7)
+  )
+  (fp_line (start -0.508 1.524) (end 0.508 4.318)
+    (stroke (width 0.6) (type default)) (layer "F.Cu") (tstamp 011a1f55-52d8-47d1-9766-3286c72befa7))
+  (fp_poly
+    (pts
+      (xy -6.728608 1.756603)
+      (xy 0.383392 5.566603)
+      (xy -6.982608 2.264603)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp 73263b71-e7ca-4ca4-bc1a-a938b61fa976))
+  (fp_poly
+    (pts
+      (xy 1.1176 5.207)
+      (xy 5.588 2.794)
+      (xy 5.842 3.302)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp 77e2618e-e30f-4f87-8ef3-5799950d30e3))
+  (fp_poly
+    (pts
+      (xy 1.8796 5.3086)
+      (xy 6.1214 3.9624)
+      (xy 6.3246 4.4196)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp 7017cf70-1347-4f19-bf40-9981da4daf47))
+  (fp_poly
+    (pts
+      (xy 2.4638 5.588)
+      (xy 6.5278 5.08)
+      (xy 6.7818 5.6134)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp 0e244229-722a-42ba-ac3f-4339ec8c3bd5))
+  (pad "1" thru_hole circle (at 6.5278 2.7178) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 765d4a62-85ec-42ee-b532-881a602d11a8))
+  (pad "2" thru_hole circle (at 7.0358 3.8862) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp d47015fe-e48d-42b4-861e-925dd87304b6))
+  (pad "3" thru_hole circle (at 7.493 5.08) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 60c4a47e-3df1-4f37-a640-9ca9e9a63ae5))
+  (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_ACP_CA6-H2,5_Horizontal.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

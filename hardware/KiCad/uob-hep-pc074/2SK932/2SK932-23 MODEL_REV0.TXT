@@ -1,0 +1,34 @@
+*
+*****************************************************
+*             Model of 2SK932 (rank=23)             *
+*                    package: CP                    *
+*****************************************************
+*                                                   *
+*                    J-FET Model                    *
+*                                                   *
+*             EXTERNAL PINS DESCRIPTION:            *
+*                                                   *
+*                  PIN 1 -> SOURCE                  *
+*                  PIN 2 -> DRAIN                   *
+*                  PIN 3 -> GATE                    *
+*                                                   *
+*               DATE:  Aug 22, 2019                 *
+*****************************************************
+* MODELLING FOR 2SK932 (Rank:23)
+ 
+.SUBCKT 2SK932CP23    1 2 3
+LL3     3   33        0.4n
+J1     23   33   13   2SK93223
+LW2    23   21        0.6n 
+CP2    33   21        0.1p
+LL2    21    2        0.7n  
+LW1    13   11        0.6n 
+CP1    33   11        0.1p
+LL1    11    1        0.7n
+
+.MODEL 2SK93223 NJF(BETA=0.036 VTO=-0.66 LAMBDA=0.0384
++ RD=5 RS=5 IS=0.7f CGS=7.52p CGD=7.52p M=0.33 PB=0.6
++ FC=0.5 N=1.038 KF=7.57E-16 AF=1.563)
+
+.ENDS 2SK932CP23
+* END OF MODELLING

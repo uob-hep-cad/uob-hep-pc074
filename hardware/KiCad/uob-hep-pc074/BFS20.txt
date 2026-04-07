@@ -1,0 +1,70 @@
+***********************************************************
+*
+* BFS20
+*
+* Nexperia
+*
+* Medium frequency NPN Transistor
+* IC   = 25 mA
+* VCEO = 20 V 
+* hFE  = 40 - 85 @ 10V/7mA
+*
+*
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOT 23
+* 
+* Package Pin 1: Base
+* Package Pin 2: Emitter
+* Package Pin 3: Collector
+*
+*
+* # 
+* Spicemodel does not include temperature dependency
+*
+**********************************************************
+*#
+.SUBCKT BFS20 1 2 3
+Q1 1 2 3 MAIN
+.MODEL MAIN NPN
++     IS=3.4640E-16
++     NF=0.9740
++     ISE=1.00E-15
++     NE=1.508
++     BF=147.8  
++     IKF=0.1343
++     VAF=117.1
++     NR=0.9420
++     ISC=1.231E-15
++     NC=1.148  
++     BR=4.078
++     IKR=0.1809
++     VAR=1.954
++     RB=1
++     IRB=1E-06
++     RBM=1  
++     RE=0.7337
++     RC=1.1040
++     XTB=0
++     EG=1.11
++     XTI=3
++     CJE=2.372E-12  
++     VJE=0.5979
++     MJE=0.170
++     TF=2.089E-10
++     XTF=198.3
++     VTF=1.451  
++     ITF=0.2547
++     PTF=0
++     CJC=0.842E-12
++     VJC=0.5323
++     MJC=0.2749
++     XCJC=0.1500
++     TR=2.00E-08
++     CJS=0
++     VJS=0.75
++     MJS=0.333
++     FC=0.9793 
+.ENDS
+*

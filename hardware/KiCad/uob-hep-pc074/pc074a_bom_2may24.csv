@@ -1,0 +1,35 @@
+Reference,Value,Datasheet,Footprint,,Qty,DNP,
+"C1,C2,C5,C6,C7,C8",10uF   C1210C106K3PACTU,~,Capacitor_SMD:C_1210_3225Metric,RS 173-4070,6,,
+"C3,C4",0.01uF  C2220C103KHRACTU,~,Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder,RS     723-6972,2,,"Substitute Murata 10nF MLCC, 2kV dc V, ±10%
+
+RS Stock No.:
+    723-6972
+Mfr. Part No.: GR455DR73D103KW01L"
+C9,1pF,~,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,RS 788-0345,1,,
+"C10,C13,C18,C20,C22,C25,C27,C29,C31",0.1uF,~,Capacitor_SMD:C_0805_2012Metric,RS      264-4416,9,,
+"C11,C19,C21,C23,C26,C28,C30",10uF,~,Capacitor_SMD:C_0805_2012Metric,RS     915-9328,7,,
+"C12,C15,C17",1n,~,Capacitor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS 272-7830,3,,
+C14,10p,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,  RS   272-7818P,1,,
+"C16,C24",47p,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     264-4517,2,,
+"H1,H2,H3,H4",MountingHole,~,MountingHole:MountingHole_2.7mm_M2.5,,4,DNP,
+J1,Wago 233-503,~,UoB Cremat Library:TerminalBlock_WAGO_233-503_1x03_P2.54mm_45Degree,RS 181-4642,1,,
+"J2,J3,J4,J5",Conn_01x01_Pin,~,Connector_Wire:SolderWire-2sqmm_1x01_D2mm_OD3.9mm,,4,DNP,
+"J6,J7",SMA, ~,Connector_Coaxial:SMA_Amphenol_901-144_Vertical,RS     144-0894,2,,
+L1,Wurth 742792651,~,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,RS 124-1835,1,,
+Q1,BFS20,https://www.onsemi.com/pub/Collateral/BC818-D.pdf,Package_TO_SOT_SMD:SOT-23,RS     153-2886P,1,,
+Q2,2SK932,https://www.onsemi.com/download/data-sheet/pdf/2sk932-d.pdf,Package_TO_SOT_SMD:SOT-23,RS     792-5173,1,,
+R1,200M   CRHA2510AF200MFKEF,~,Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder,RS 211-9408,1,,
+R2,10M  RCV080510M0FKEA,~,Resistor_SMD:R_0805_2012Metric,RS     905-9802,1,,
+R3,1.8k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     678-9926,1,,
+"R4,R5,R8,R10,R19,R20",1k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     243-0589,6,,
+R6,51R,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     262-9901,1,,
+R7,1.2k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     678-9888,1,,
+"R9,R21",10,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     243-0573,2,,
+R11,1.5k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS 678-9908,1,,
+R12,2.2M,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     679-0162,1,,
+"R13,R15",510,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS 679-0504,2,,
+"R14,R16",10k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     243-0480,2,,
+"R17,R18",240,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,RS     679-0021,2,,
+"U3,U4,U5",OPA891,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8099.pdf,Package_SO:SOIC-8_5.275x5.275mm_P1.27mm,356-8335P,3,,Substitute THS4031
+U6,LM317_SOT-223,http://www.ti.com/lit/ds/symlink/lm317.pdf,Package_TO_SOT_SMD:SOT-223-3_TabPin2,    661-6128,1,,
+U7,LM337_SOT223,http://www.ti.com/lit/ds/symlink/lm337-n.pdf,Package_TO_SOT_SMD:SOT-223-3_TabPin2,761-4612,1,,
